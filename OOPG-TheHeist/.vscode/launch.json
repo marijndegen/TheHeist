@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-jlc<OOPG-TheHeist>",
+            "request": "launch",
+            "mainClass": "javazoom.jl.converter.jlc",
+            "projectName": "OOPG-TheHeist"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-jlap<OOPG-TheHeist>",
+            "request": "launch",
+            "mainClass": "javazoom.jl.player.advanced.jlap",
+            "projectName": "OOPG-TheHeist"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-jlp<OOPG-TheHeist>",
+            "request": "launch",
+            "mainClass": "javazoom.jl.player.jlp",
+            "projectName": "OOPG-TheHeist"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IcyInputStream<OOPG-TheHeist>",
+            "request": "launch",
+            "mainClass": "javazoom.spi.mpeg.sampled.file.tag.IcyInputStream",
+            "projectName": "OOPG-TheHeist"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HeistWorld<OOPG-TheHeist>",
+            "request": "launch",
+            "mainClass": "nl.han.ica.TheHeist.HeistWorld",
+            "projectName": "OOPG-TheHeist"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PApplet<OOPG-TheHeist>",
+            "request": "launch",
+            "mainClass": "processing.core.PApplet",
+            "projectName": "OOPG-TheHeist"
+        }
+    ]
+}
